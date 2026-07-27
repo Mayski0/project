@@ -1,0 +1,96 @@
+*{
+    margin: 0; /*Зовнішній відступ*/
+    padding: 0; /*Внутрішній відступ*/
+    box-sizing: border-box; /*Властивість box-sizing дозволяє задавати розміри блоку.*/
+}
+body {
+    font-family: "Inter", sans-serif; /*шрифт*/
+    background-color: #192732; /*колір фону*/
+    color: white; /*колір тексту*/
+}
+/*головна сторінка*/
+a{
+    color: white;
+    text-decoration: none; /*прибирає нижнє підкреслення*/
+}
+li{
+display: inline-block;
+padding: 25px;
+margin-left: 40px;
+}
+.btn-send-me{
+    display: inline-block;
+    background-color: #079E7A;
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-top: 45px;
+    padding-top: 10px;
+}
+.main-photo{
+    width: 15rem;
+    height: auto;
+}
+
+.hero-content{
+    margin: 80px 150px;
+}
+
+.hero-avatar{
+
+}
+/*Контакти*/
+
+.bg-video{
+    width: 100vw;
+    height: 87.3vh;
+    object-fit: cover;
+}
+
+/*форма*/
+
+input{
+    width: 28rem;
+    height: 2.2rem;
+    background-color: #dae5e28c;
+    border: none;
+    border-radius: 8px;
+}
+textarea{
+    width: 28rem;
+    height: 7.2rem;
+    background-color: #dae5e28c;
+    border: none;
+    border-radius: 8px;
+}
+button{
+    width: 8rem;
+    height: 2rem;
+    margin-left: 150px;
+    border: 
+    background-color
+}
+.feedback-form{
+    width: 100%;
+    max-width: 550px;
+    height: 450px;
+    box-sizing: border-box;
+    background: #079E7A;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1))
+    border-radius: 25px;
+    margin: auto;
+    padding: 40px 50px;
+}
+/*Про мене*/
+
+.about-me-photo{
+    width: 13rem;
+    height: auto;
+}
+.title-about-me{
+    text-align: center;
+    color: #079E7A;
+}
