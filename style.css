@@ -39,9 +39,6 @@ margin-left: 40px;
     margin: 80px 150px;
 }
 
-.hero-avatar{
-
-}
 /*Контакти*/
 
 .bg-video{
@@ -70,8 +67,10 @@ button{
     width: 8rem;
     height: 2rem;
     margin-left: 150px;
-    border: 
-    background-color
+    border: none;
+    background-color: #dae5e28c;
+    border-radius: 8px;
+    cursor: pointer;
 }
 .feedback-form{
     width: 100%;
@@ -79,9 +78,9 @@ button{
     height: 450px;
     box-sizing: border-box;
     background: #079E7A;
-    background: linear-gradient(90deg, rgba(42, 123, 155, 1))
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1));
     border-radius: 25px;
-    margin: auto;
+    margin: 60px auto 0 auto;
     padding: 40px 50px;
 }
 /*Про мене*/
