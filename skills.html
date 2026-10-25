@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css"><!--Тут підключили файл із стилями-->
-        <title>Мій перший сайт</title>
-    </head>
-    <body>
+     <head>
+         <meta charset="utf-8">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+         <link rel="stylesheet" href="style.css"><!--Тут підключили файл із стилями-->
+         <title>Мій перший сайт</title>
+     </head>
+     <body>
         <header></header>
         <nav>
             <ul>
@@ -18,16 +19,43 @@
         </nav>
         <section>
             <h2 class="title-skills">Навики</h2>
-            <div class="skills">
-                <h4>Веброзробник</h4>
-                <p>Roblox</p>
-                <p>50%</p><progress value="50" max="100"></progress>
-                <p>CSS</p>
-                <p>50%</p><progress value="50" max="100"></progress>
-                <p>Scratch</p>
-                <p>100%</p><progress value="50" max="100"></progress>
+            <div class="cards">
+                <div class="skills">
+                    <p>HTML</p>
+                    <span class="percent">50%</span><progress value="50" max="100"></progress>
+                    <p>CSS</p>
+                    <span class="percent">50%</span><progress value="50" max="100"></progress>
+                    <p>JavaScript</p>
+                    <span class="percent">50%</span><progress value="50" max="100"></progress>
             </div>
+             
+            <div class="skills">
+                <p>Ms Word</p></p>
+                <span class="percent">90%</span><progress value="90" max="100"></progress>
+                <p>MS Power Point</p>
+                <p class="percent">100%</p><progress value="100" max="100"></progress>
+                <p>MS Excel</p>
+                <p class="percent">70%</p><progress value="70%" max="100"></progress>
+            </div>
+
+            <div class="skills">
+                <p>Canva</p>
+                <p class="percent">100%</p><progress value="100" max="100"></progress>
+                <p>Python</p>
+                <p class="percent">70%</p><progress value="70%" max="100"></progress>
+                <p>3D-Графіка</p>
+                <p class="percent">50%</p><progress value="50%" max="100"></progress>
+            </div>
+        </div>
         </section>
-        <footer></footer>
-    </body>
-</html>
+        <footer>
+            <div class="container">
+                <p>&copy; 2026 Сайт-Візитка. Усі права захижено</p>
+                <div class="social-links">
+                </div>
+            </div>
+        </footer>
+        <script>
+            window.alert("Це мої навики");
+        </script>
+        </body>

@@ -18,7 +18,15 @@
     </nav>
     <section>
         <h2 class="title-about-me">Про мене</h2>
-        <h3>Анкета про себе</h3>
+        <div class="about_me">
+            <img class="about-me-photo" src="AI.png" alt="Мій стікер">
+            <img class="arrow" src="Arrow.svg">
+            <span class="inscription">Привіт! Я Єгор</span>
+            <div class="change-lang">
+                <button onclick="translateUA()" class="btn-UA">UA</button>
+                <button onclick="translateEN()" class="btn-EN">EN</button>
+            </div>
+            <div class="info" id="info">
         <p><b>Прізвище та ім'я </b>Гробов Єгор Володимирович</p>
         <p><b>Вік </b>12</p>
         <p><b>Дата народження </b>23.12.2013</p>
@@ -28,17 +36,37 @@
         <p><b>Чого хочу навчитися цього року </b>Навчитися робити вебсайти</p>
         <p><b>Цікавий факт про мене </b>Я полюбляю рибалити</p>
         <p><b>Улюблена цитата </b> Немає</p>
-        <ol>
-            <li>Люблю шукати монети металошукачем</li>
-            <li>Ніким не працював</li>
-            <li>Хотів би стати в майбутньому археологом</li>
-        </ol>
-        <ul>
-            <li>Хочу смачно готувати їжу</li>
-            <li>Хочу навчитися їздити на машині</li>
-            <li>Хочу знайти більше монет металошукачем</li>
-        </ul>
+        </div>
+    </div>
     </section>
     <footer></footer>
+    <script>
+        function translateEN() {
+            document.getElementById("info").innerHTML = `
+            <p><b>Last name and first name:</b> Grobov Egor Volodimurovich</p>
+            <p><b>Age:</b></b> 12</p>
+            <p><b>Date of birth:</b><i style="color:blue"> 23.12.2013</i></p>
+            <p><b></i>City:</b> Kharkiv</p>
+            <p><b>Hobbies and passions:</b> fishing</p>
+            <p><b>My favorite book / movie / game:</b> Harry Potter</p>
+            <p><mark>What inspires me:</mark> cat, people</p><br>
+            <p><b>What I want to learn this year:</b> improve my level of the English</p><br>
+            `;
+        }
+
+        function translateUA() {
+            document.getElementById("info").innerHTML = `
+            <p><b>Перше ім'я та останнє:</b> Гробов Єгор Володимирович</p>
+            <p><b>Вік:</b></b> 12</p>
+            <p><b>Дата народження:</b><i style="color:blue"> 23.12.2013</i></p>
+            <p><b></i>Місто:</b> Харків</p>
+            <p><b>Хоббі та захоплення:</b> Рибалка</p>
+            <p><b>Моя улюблена книга / фільм / гра:</b> Гаррі Поттер</p>
+            <p><mark>Що надихає мене:</mark> Кішка, люди</p><br>
+            <p><b>Чого я хочу навчитися цього року</b> Підвищити свій рівень англійської мови</p><br>
+            `;
+        }
+
+    </script>
    </body>
 </html>
